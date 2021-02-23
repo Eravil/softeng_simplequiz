@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+    <!-- top section -->
+    <div class="intro py-2 bg-dark text-center">
+        <div class="container">
+            <h2 class="text-light display-4 my-4">Software Engineering simple Quiz</h2>
+        </div>
+    </div>
+
+    <!-- result section -->
+    <div class="result py-2 d-none bg-dark text-center">
+        <div class="container text-light">
+            <p>You have got <span class="text-light display-4 p-3">0%</span>points!</p>
+        </div>
+    </div>
+
+    <!-- quiz section -->
+
+    <div class="quiz py-4 bg-warning">
+        <div class="container">
+            <h2 class="my-5 text-dark">On with the questions...</h2>
+
+            <form class ="quiz-form text-dark">
+                <div class="my-5">
+                    <p class="lead fw-bold">1. Software Maintenance includes</p>
+                    <div class="form-check my-2 text-dark-50">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label class="form-check-label">Error corrections</label>
+                    </div>
+                    <div class="form-check my-2 text-dark-50">
+                        <input type="radio" name="q1" value="B">
+                        <label class="form-check-label">Enhancements of capabilities</label>
+                    </div>
+                    <div class="form-check my-2 text-dark-50">
+                        <input type="radio" name="q1" value="C">
+                        <label class="form-check-label">Deletion of obsolete capabilities</label>
+                    </div>
+                    <div class="form-check my-2 text-dark-50">
+                        <input type="radio" name="q1" value="D">
+                        <label class="form-check-label">All of the mentioned</label>
+                    </div>
+                    
+                </div>
+                    <div class="my-5">
+                        <p class="lead fw-bold">2. Maintenance is classified into how many categories ?</p>
+                        <div class="form-check my-2 text-dark-50">
+                            <input type="radio" name="q2" value="A" checked>
+                            <label class="form-check-label">Two</label>
+                        </div>
+                        <div class="form-check my-2 text-dark-50">
+                            <input type="radio" name="q2" value="B">
+                            <label class="form-check-label">Three</label>
+                        </div>
+                        <div class="form-check my-2 text-dark-50">
+                            <input type="radio" name="q2" value="C">
+                            <label class="form-check-label">Four</label>
+                        </div>
+                        <div class="form-check my-2 text-dark-50">
+                            <input type="radio" name="q2" value="D">
+                            <label class="form-check-label">Five</label>
+                        </div>
+                    </div>
+                    <div class="my-5">
+                        <p class="lead fw-bold">3. The modification of the software to match changes in the ever changing environment, falls under which category of
+                        software maintenance?</p>
+                        <div class="form-check my-2 text-dark-50">
+                            <input type="radio" name="q3" value="A" checked>
+                            <label class="form-check-label">Corrective</label>
+                        </div>
+                        <div class="form-check my-2 text-dark-50">
+                            <input type="radio" name="q3" value="B">
+                            <label class="form-check-label">Adaptive</label>
+                        </div>
+                        <div class="form-check my-2 text-dark-50">
+                            <input type="radio" name="q3" value="C">
+                            <label class="form-check-label">Perfective</label>
+                        </div>
+                        <div class="form-check my-2 text-dark-50">
+                            <input type="radio" name="q3" value="D">
+                            <label class="form-check-label">Preventive</label>
+                        </div>
+                    </div>
+                    <div class="my-5">
+                        <p class="lead fw-bold">4. How many phases are there in Taute Maintenance Model?</p>
+                        <div class="form-check my-2 text-dark-50">
+                            <input type="radio" name="q4" value="A" checked>
+                            <label class="form-check-label">Six</label>
+                        </div>
+                        <div class="form-check my-2 text-dark-50">
+                            <input type="radio" name="q4" value="B">
+                            <label class="form-check-label">Seven</label>
+                        </div>
+                        <div class="form-check my-2 text-dark-50">
+                            <input type="radio" name="q4" value="C">
+                            <label class="form-check-label">Eight</label>
+                        </div>
+                        <div class="form-check my-2 text-dark-50">
+                            <input type="radio" name="q4" value="D">
+                            <label class="form-check-label">Nine</label>
+                        </div>
+                    </div>
+                    <div class="my-5">
+                        <p class="lead fw-bold">5. What type of software testing is generally used in Software Maintenance?</p>
+                        <div class="form-check my-2 text-dark-50">
+                            <input type="radio" name="q5" value="A" checked>
+                            <label class="form-check-label">Regression Testing</label>
+                        </div>
+                        <div class="form-check my-2 text-dark-50">
+                            <input type="radio" name="q5" value="B">
+                            <label class="form-check-label">System Testing</label>
+                        </div>
+                        <div class="form-check my-2 text-dark-50">
+                            <input type="radio" name="q5" value="C">
+                            <label class="form-check-label">Integration Testing</label>
+                        </div>
+                        <div class="form-check my-2 text-dark-50">
+                            <input type="radio" name="q5" value="D">
+                            <label class="form-check-label">Unit Testing</label>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <input type="submit" class="btn btn-danger">
+                    </div>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
